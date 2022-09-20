@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: var(--app-height);
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  display: flex;
+}
+
+:root {
+  --dark: hsl(0, 0%, 0%);
+  --light: hsla(0, 0%, 100%, 0.7);
+  --default: hsl(0, 0%, 100%);
+  --accent: hsl(43, 100%, 50%);
+  --placeholder:hsla(0, 0%, 0%, 0.6);
+}
